@@ -48,8 +48,8 @@ const socialMediaLinks = [
     name: "email",
     link: "mailto:ellenwushangwei@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/envelope?f=classic&s=solid
-    backgroundColor: "#ff0000", // Reference https://simpleicons.org/?q=gmail 
-  }
+    backgroundColor: "#ff0000", // Reference https://simpleicons.org/?q=gmail
+  },
 ];
 
 const skills = {
@@ -70,15 +70,15 @@ const skills = {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
-          {
+        },
+        {
           skillName: "R",
           fontAwesomeClassname: "ion-logo-python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
-          }
+          },
         },
-      }
       ],
     },
     {
@@ -233,7 +233,6 @@ const degrees = {
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "http://iiitk.ac.in",
     },
     {
       title: "Indiana University Bloomington",
@@ -246,7 +245,6 @@ const degrees = {
         "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
         "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
-      website_link: "https://www.indiana.edu/",
     },
   ],
 };
