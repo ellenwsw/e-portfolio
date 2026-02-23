@@ -62,14 +62,14 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/experience"
+                  to="/work-experience"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Experience
+                  Work Experience
                 </NavLink>
               </li>
               <li>
