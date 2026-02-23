@@ -4,10 +4,11 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
-import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 import ResumePage from "../pages/resume/Resume.js";
+import Archive from "../pages/archive/Archive";
+import ArchivePost from "../pages/archive/ArchivePost";
 
 export default class Main extends Component {
   componentDidMount() {
@@ -73,13 +74,20 @@ export default class Main extends Component {
           )}
 
           <Route
-            path="/projects"
-            render={(props) => <Projects {...props} theme={this.props.theme} />}
-          />
-          <Route
             path="/resume"
             render={(props) => (
               <ResumePage {...props} theme={this.props.theme} />
+            )}
+          />
+          <Route
+            path="/academic-archive"
+            exact
+            render={(props) => <Archive {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/academic-archive/:slug"
+            render={(props) => (
+              <ArchivePost {...props} theme={this.props.theme} />
             )}
           />
           <Route

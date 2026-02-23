@@ -1,0 +1,125 @@
+.archive-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 120px 24px 48px;
+}
+
+.archive-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.archive-controls {
+  display: grid;
+  grid-template-columns: 1.5fr 220px auto;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 24px 0 36px;
+}
+
+.archive-controls input,
+.archive-controls select {
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.private-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.theme-group {
+  margin-bottom: 36px;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.post-card {
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 18px;
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.post-card.private {
+  opacity: 0.9;
+}
+
+.post-card h3 {
+  margin: 10px 0;
+}
+
+.post-card h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-card-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.chip {
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.75rem;
+}
+
+.private-label {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.empty-results {
+  opacity: 0.8;
+}
+
+.post-main {
+  max-width: 850px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.post-header h1 {
+  margin-bottom: 10px;
+}
+
+.outputs-box {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 20px 0;
+}
+
+.post-markdown {
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .archive-controls {
+    grid-template-columns: 1fr;
+  }
+}
