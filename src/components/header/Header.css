@@ -129,6 +129,12 @@
   .header li {
     float: left;
   }
+
+  .header li a {
+    white-space: nowrap;
+    padding: 14px 14px;
+  }
+
   .header {
     display: flex;
     align-items: center;
