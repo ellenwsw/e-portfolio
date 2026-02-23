@@ -21,13 +21,24 @@
 
 .card-img {
   width: 200px;
-  height: auto;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
+  overflow: hidden;
   padding: 10px;
   border: 1px solid #d9dbdf;
   /* background-color: #6c63ff; */
   /* background: transparent; */
   box-shadow: 5px 5px 5px #d9dbdf;
+}
+
+.degree-logo {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .body-header {
