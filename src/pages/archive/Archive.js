@@ -21,9 +21,7 @@ const toPrettyTagLabel = (tag) =>
 export default function Archive({ theme }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState("all");
-  const [showPrivate, setShowPrivate] = useState(
-    archiveSettings.includePrivateByDefault
-  );
+  const showPrivate = archiveSettings.includePrivateByDefault;
 
   const availableTags = useMemo(() => {
     const tagValues = uniqueValues(archivePosts.flatMap((post) => post.tags));
@@ -111,7 +109,7 @@ export default function Archive({ theme }) {
           <input
             aria-label="Search academic archive"
             type="text"
-            placeholder="Search by course, theme, skill, or keyword"
+            placeholder="Search by theme, skill, or keywords"
             value={searchTerm}
             onChange={(event) => setSearchTerm(event.target.value)}
           />
@@ -127,14 +125,6 @@ export default function Archive({ theme }) {
               </option>
             ))}
           </select>
-          <label className="private-toggle">
-            <input
-              type="checkbox"
-              checked={showPrivate}
-              onChange={(event) => setShowPrivate(event.target.checked)}
-            />
-            Show private entries (owner view)
-          </label>
         </section>
 
         <section className="archive-results">
