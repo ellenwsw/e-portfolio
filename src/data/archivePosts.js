@@ -61,15 +61,10 @@ export const archivePosts = [
     theme: "Geospatial Analysis",
     keySkills: [
       "ArcGIS Pro",
-      "QGIS",
-      "R",
-      "Python",
       "Academic Writing",
+      "Data Visualization",
       "Research",
       "Teamwork",
-      "Google Earth Engine",
-      "Cartography",
-      "Data Visualization",
     ],
     tags: [
       {
