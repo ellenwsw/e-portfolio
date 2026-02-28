@@ -70,11 +70,19 @@ export const archivePosts = [
       "Google Earth Engine",
       "Cartography",
       "Data Visualization",
+      "ENVI",
     ],
+    // Manual tags let you control archive filters per post.
+    // Use strings ("envi") or objects ({ value: "envi", label: "ENVI" }).
+    // They are merged with auto-tags from `theme` and `keySkills` in withAutoTags().
     tags: [
       {
         value: "ba-environment-sustainability",
         label: "BA Environment & Sustainability",
+      },
+      {
+        value: "envi",
+        label: "ENVI",
       },
     ],
     markdownPath: "/archive-posts/pedestrians-collisions-toronto.md",

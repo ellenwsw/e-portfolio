@@ -32,6 +32,15 @@ class Education extends Component {
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   Degrees and Certifications received
                 </h3>
+                <p
+                  className="education-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  As a lifelong learner, I am committed to continuous
+                  professional and personal development through ongoing
+                  education and certification, whether related to my career or
+                  personal interests.
+                </p>
               </div>
             </div>
           </Fade>
