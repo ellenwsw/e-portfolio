@@ -61,16 +61,10 @@ export const archivePosts = [
     theme: "Geospatial Analysis",
     keySkills: [
       "ArcGIS Pro",
-      "QGIS",
-      "R",
-      "Python",
       "Academic Writing",
+      "Data Visualization",
       "Research",
       "Teamwork",
-      "Google Earth Engine",
-      "Cartography",
-      "Data Visualization",
-      "ENVI",
     ],
     // Manual tags let you control archive filters per post.
     // Use strings ("envi") or objects ({ value: "envi", label: "ENVI" }).
