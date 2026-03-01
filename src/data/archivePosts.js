@@ -1,7 +1,7 @@
 export const archiveSettings = {
   title: "Academic Archive",
   subtitle:
-    "A searchable archive of degree projects, outputs, and reflections grouped by theme and demonstrated skills.",
+    "A searchable archive of course/degree capstone projects, outputs, and reflections grouped by theme and demonstrated skills.",
   includePrivateByDefault: false,
 };
 
@@ -56,7 +56,7 @@ export const archivePosts = [
     title: "Supervised Landsat Image Classification with Accuracy Assessment",
     date: "2025-11-01",
     degree: "Master of Geomatics for Environmental Management",
-    course: "Remote Sensing",
+    course: "GEM 520 Remote Sensing for Ecosystem Management",
     theme: "Remote Sensing",
     keySkills: [
       "R",
@@ -91,7 +91,7 @@ export const archivePosts = [
       "Pacific Salmon Habitat Accessibility Mapping from Stream-Network Analysis",
     date: "2026-01-31",
     degree: "Master of Geomatics for Environmental Management",
-    course: "Hydrological GIS Analysis",
+    course: "GEM 511 Advanced GIS for Environmental Management",
     theme: "Hydrological Modeling",
     keySkills: [
       "ArcGIS Pro",
@@ -120,8 +120,8 @@ export const archivePosts = [
     title: "UBC Spring Flowering Trees Distribution Map",
     date: "2025-09-20",
     degree: "Master of Geomatics for Environmental Management",
-    course: "GIS & Cartography",
-    theme: "Cartography",
+    course: "GEM 510 GIS for Forestry and Conservation",
+    theme: "GIS & Cartography",
     keySkills: ["ArcGIS Pro", "PostgreSQL", "SQL", "Cartography"],
     tags: [
       {
@@ -146,7 +146,7 @@ export const archivePosts = [
     degree: "BA Environment & Sustainability",
     course: "GEOS 407 Vegetation Dynamics",
     theme: "Ecological Data Analysis",
-    keySkills: ["R", "ClimateNA", "Phenology"],
+    keySkills: ["R", "ClimateNA", "Phenology", "Teamwork"],
     tags: [
       {
         value: "ba-environment-sustainability",
@@ -193,7 +193,7 @@ export const archivePosts = [
     title: "Mapping Son Preference Patterns in China Using 2020 Census Data",
     date: "2024-04-08",
     degree: "BA Environment & Sustainability",
-    course: "Cartography",
+    course: "GEOS 372 Cartography",
     theme: "Cartography",
     keySkills: [
       "ArcGIS Pro",
@@ -223,7 +223,7 @@ export const archivePosts = [
       "Analysis of Pedestrians-Involved Collisions In the Toronto Downtown Area",
     date: "2022-12-08",
     degree: "BA Environment & Sustainability",
-    course: "GIS Project",
+    course: "GEOS 270 Geographical Sciences",
     theme: "Geospatial Analysis",
     keySkills: [
       "ArcGIS Pro",

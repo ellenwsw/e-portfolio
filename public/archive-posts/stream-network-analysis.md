@@ -18,7 +18,6 @@ Use "Overlay Route Events" to combine the gradient and stream order event tables
 Clip both habitat layers to your chosen conservation unit. The final map panel shows stream routes symbolized by reachability, dams as barriers, accessible vs. inaccessible habitat, and a zoomed-in inset of Lake Cowichan.
 
 ## Key output
-The details about the project is illustrated in the academic poster below.
 ![Chinook Habitat Network](/archive-posts/images/stream-routes.jpg)
 
 # Reflection

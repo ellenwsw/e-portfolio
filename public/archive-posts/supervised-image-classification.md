@@ -25,7 +25,7 @@ This project applies supervised image classification on Landsat 9 surface reflec
 ![Training and validation polygon sets](/archive-posts/images/unnamed-chunk-7-1.png)
 
 ### Classified land-cover map
-![Supervised land-cover classification result](/archive-posts/images/unnamed-chunk-13-1.png)
+![Supervised land-cover classification result](/archive-posts/images/unnamed-chunk-17-1.png)
 
 ## Reflection
 - This project strengthened my practical understanding of how training-data quality drives classification performance.
