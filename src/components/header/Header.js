@@ -84,6 +84,18 @@ class Header extends Component {
                   Academic Archive
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/mgem-capstone"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  MGEM Capstone
+                </NavLink>
+              </li>
             </ul>
           </header>
         </div>

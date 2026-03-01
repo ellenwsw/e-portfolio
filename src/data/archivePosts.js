@@ -96,7 +96,7 @@ export const archivePosts = [
       "ArcGIS Pro",
       "DEM Processing",
       "Hydrological Modeling",
-      "Python"
+      "Python",
     ],
     tags: [
       {
@@ -213,6 +213,123 @@ export const archivePosts = [
         label: "Academic Poster",
         note:
           "Poster visualizing multi-temporal Landsat analysis and vegetation-zone change on Mount Everest's southern slope.",
+      },
+    ],
+    isPrivate: false,
+  }),
+  withAutoTags({
+    slug: "r-fire-recovery",
+    title: "R Post-Fire Recovery Analysis",
+    date: "2025-12-05",
+    degree: "Master of Geomatics for Environmental Management",
+    course: "MGEM Independent Analysis",
+    theme: "Ecological Data Analysis",
+    keySkills: [
+      "R",
+      "Time Series",
+      "Data Visualization",
+      "Ecological Monitoring",
+    ],
+    tags: [
+      {
+        value: "mgem",
+        label: "MGEM",
+      },
+    ],
+    markdownPath: "/archive-posts/r-fire-recovery.md",
+    outputs: [
+      {
+        label: "Post-Fire Recovery Trajectory",
+        note:
+          "Primary recovery trend figure generated in R (image: unnamed-chunk-13-1.png).",
+      },
+      {
+        label: "Recovery Phase Comparison",
+        note:
+          "Comparative post-fire phase output generated in R (image: unnamed-chunk-17-1.png).",
+      },
+    ],
+    isPrivate: false,
+  }),
+  withAutoTags({
+    slug: "r-time-series",
+    title: "R Time-Series Trend and Seasonality Analysis",
+    date: "2025-11-14",
+    degree: "Master of Geomatics for Environmental Management",
+    course: "MGEM Independent Analysis",
+    theme: "Ecological Data Analysis",
+    keySkills: ["R", "Time Series", "Trend Analysis", "Data Visualization"],
+    tags: [
+      {
+        value: "mgem",
+        label: "MGEM",
+      },
+    ],
+    markdownPath: "/archive-posts/r-time-series.md",
+    outputs: [
+      {
+        label: "Trend Visualization",
+        note:
+          "Core trend output from the R workflow (image: unnamed-chunk-4-1.png).",
+      },
+      {
+        label: "Seasonal Decomposition",
+        note:
+          "Seasonality/decomposition output from the R workflow (image: unnamed-chunk-5-1.png).",
+      },
+    ],
+    isPrivate: false,
+  }),
+  withAutoTags({
+    slug: "gem521-lab3-ellen-wu",
+    title: "GEM 521 Lab 3",
+    date: "2025-11-21",
+    degree: "Master of Geomatics for Environmental Management",
+    course: "GEM 521",
+    theme: "Ecological Data Analysis",
+    keySkills: ["R", "Statistical Analysis", "Data Visualization"],
+    tags: [
+      {
+        value: "mgem",
+        label: "MGEM",
+      },
+    ],
+    markdownPath: "/archive-posts/gem521-lab3-ellen-wu.md",
+    outputs: [
+      {
+        label: "Output 1 — Main Analytical Figure",
+        note: "Placeholder ready: /archive-posts/images/lab3-output-1.png",
+      },
+      {
+        label: "Output 2 — Supporting Map/Plot",
+        note: "Placeholder ready: /archive-posts/images/lab3-output-2.png",
+      },
+    ],
+    isPrivate: false,
+  }),
+  withAutoTags({
+    slug: "gem521-lab4-ellen-wu",
+    title: "GEM 521 Lab 4",
+    date: "2025-11-28",
+    degree: "Master of Geomatics for Environmental Management",
+    course: "GEM 521",
+    theme: "Ecological Data Analysis",
+    keySkills: ["R", "Statistical Analysis", "Data Visualization"],
+    tags: [
+      {
+        value: "mgem",
+        label: "MGEM",
+      },
+    ],
+    markdownPath: "/archive-posts/gem521-lab4-ellen-wu.md",
+    outputs: [
+      {
+        label: "Output 1 — Main Analytical Figure",
+        note: "Placeholder ready: /archive-posts/images/lab4-output-1.png",
+      },
+      {
+        label: "Output 2 — Supporting Map/Plot",
+        note: "Placeholder ready: /archive-posts/images/lab4-output-2.png",
       },
     ],
     isPrivate: false,
