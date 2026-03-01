@@ -9,6 +9,7 @@ import Error404 from "../pages/errors/error404/Error";
 import ResumePage from "../pages/resume/Resume.js";
 import Archive from "../pages/archive/Archive";
 import ArchivePost from "../pages/archive/ArchivePost";
+import MGEMCapstone from "../pages/mgemCapstone/MGEMCapstone";
 
 export default class Main extends Component {
   componentDidMount() {
@@ -83,6 +84,12 @@ export default class Main extends Component {
             path="/academic-archive"
             exact
             render={(props) => <Archive {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/mgem-capstone"
+            render={(props) => (
+              <MGEMCapstone {...props} theme={this.props.theme} />
+            )}
           />
           <Route
             path="/academic-archive/:slug"
