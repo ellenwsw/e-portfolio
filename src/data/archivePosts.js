@@ -53,11 +53,11 @@ const withAutoTags = (post) => {
 export const archivePosts = [
   withAutoTags({
     slug: "supervised-image-classification",
-    title: "Supervised Landsat Image Classification with Accuracy Assessment",
+    title: "Supervised Landsat Image Classification with Accuracy Assessment in R",
     date: "2025-11-01",
     degree: "Master of Geomatics for Environmental Management",
     course: "GEM 520 Remote Sensing for Ecosystem Management",
-    theme: "Remote Sensing",
+    theme: "Remote Sensing and Data Processing",
     keySkills: [
       "R",
       "Landsat",
@@ -87,12 +87,12 @@ export const archivePosts = [
   }),
   withAutoTags({
     slug: "r-lidar",
-    title: "R LiDAR Forest Attribute Modeling and Raster Products",
+    title: "LiDAR Forest Attribute Modeling and Raster Products",
     date: "2026-02-05",
     degree: "Master of Geomatics for Environmental Management",
-    course: "GEM 521",
-    theme: "Remote Sensing",
-    keySkills: ["R", "LiDAR", "Raster Processing", "Statistical Modeling"],
+    course: "GEM 521 Advanced Earth Observation and Image Processing",
+    theme: "Remote Sensing and Data Processing",
+    keySkills: ["R", "LiDAR", "Statistical Modeling"],
     tags: [
       {
         value: "mgem",
@@ -204,7 +204,7 @@ export const archivePosts = [
     degree: "BA Environment & Sustainability",
     course: "GEOS 407 Vegetation Dynamics",
     theme: "Ecological Data Analysis",
-    keySkills: ["R", "ClimateNA", "Phenology", "Teamwork"],
+    keySkills: ["R", "ClimateNA", "Ecological Data Analysis", "Teamwork"],
     tags: [
       {
         value: "ba-environment-sustainability",
@@ -228,7 +228,7 @@ export const archivePosts = [
     date: "2024-04-10",
     degree: "BA Environment & Sustainability",
     course: "GEOS 373 Remote Sensing",
-    theme: "Remote Sensing",
+    theme: "Remote Sensing and Data Processing",
     keySkills: ["ENVI", "Landsat", "Change Detection", "Teamwork"],
     tags: [
       {
@@ -248,16 +248,15 @@ export const archivePosts = [
   }),
   withAutoTags({
     slug: "r-fire-recovery",
-    title: "R Post-Fire Recovery Analysis",
+    title: "Post-Fire Severity and Recovery Analysis",
     date: "2025-12-05",
     degree: "Master of Geomatics for Environmental Management",
-    course: "MGEM Independent Analysis",
-    theme: "Ecological Data Analysis",
+    course: "GEM 520 Remote Sensing for Ecosystem Management",
+    theme: "Remote Sensing and Data Processing",
     keySkills: [
       "R",
-      "Time Series",
+      "Trend Analysis",
       "Data Visualization",
-      "Ecological Monitoring",
     ],
     tags: [
       {
@@ -268,26 +267,26 @@ export const archivePosts = [
     markdownPath: "/archive-posts/r-fire-recovery.md",
     outputs: [
       {
-        label: "Post-Fire Recovery Trajectory",
+        label: "2017 Prouton Lakes Fire Burn Severity Map",
         note:
-          "Primary recovery trend figure generated in R (image: unnamed-chunk-13-1.png).",
+          "Map visualization produced with satellite imagery and R image processing.",
       },
       {
         label: "Recovery Phase Comparison",
         note:
-          "Comparative post-fire phase output generated in R (image: unnamed-chunk-17-1.png).",
+          "Comparative post-fire phase output generated in R, by map visualization and plot visualization.",
       },
     ],
     isPrivate: false,
   }),
   withAutoTags({
     slug: "r-time-series",
-    title: "R Time-Series Trend and Seasonality Analysis",
+    title: "Time-Series Trend, Rasters Analysis and Change Detection",
     date: "2025-11-14",
     degree: "Master of Geomatics for Environmental Management",
-    course: "MGEM Independent Analysis",
-    theme: "Ecological Data Analysis",
-    keySkills: ["R", "Time Series", "Trend Analysis", "Data Visualization"],
+    course: "GEM 520 Remote Sensing for Ecosystem Management",
+    theme: "Remote Sensing and Data Processing",
+    keySkills: ["R", "Trend Analysis", "Change Detection"],
     tags: [
       {
         value: "mgem",
@@ -297,70 +296,43 @@ export const archivePosts = [
     markdownPath: "/archive-posts/r-time-series.md",
     outputs: [
       {
-        label: "Trend Visualization",
+        label: "Monthly NDVI change",
         note:
-          "Core trend output from the R workflow (image: unnamed-chunk-4-1.png).",
+          "Core trend output from the R workflow.",
       },
       {
-        label: "Seasonal Decomposition",
+        label: "Change Detection",
         note:
-          "Seasonality/decomposition output from the R workflow (image: unnamed-chunk-5-1.png).",
+          "BFAST change detection algorithm output from the R workflow.",
       },
     ],
     isPrivate: false,
   }),
   withAutoTags({
-    slug: "gem521-lab3-ellen-wu",
-    title: "GEM 521 Lab 3",
-    date: "2025-11-21",
+    slug: "r-ind-tree-detection",
+    title: "Individual Tree Detection using lidR with LiDAR Point Clouds",
+    date: "2026-02-13",
     degree: "Master of Geomatics for Environmental Management",
-    course: "GEM 521",
-    theme: "Ecological Data Analysis",
-    keySkills: ["R", "Statistical Analysis", "Data Visualization"],
+    course: "GEM 521 Advanced Earth Observation and Image Processing",
+    theme: "Remote Sensing and Data Processing",
+    keySkills: ["R", "LiDAR", "Data Visualization"],
     tags: [
       {
         value: "mgem",
         label: "MGEM",
       },
     ],
-    markdownPath: "/archive-posts/gem521-lab3-ellen-wu.md",
+    markdownPath: "/archive-posts/r-ind-tree-detection.md",
     outputs: [
       {
-        label: "Output 1 — Main Analytical Figure",
-        note: "Placeholder ready: /archive-posts/images/lab3-output-1.png",
-      },
-      {
-        label: "Output 2 — Supporting Map/Plot",
-        note: "Placeholder ready: /archive-posts/images/lab3-output-2.png",
-      },
-    ],
-    isPrivate: false,
-  }),
-  withAutoTags({
-    slug: "gem521-lab4-ellen-wu",
-    title: "GEM 521 Lab 4",
-    date: "2025-11-28",
-    degree: "Master of Geomatics for Environmental Management",
-    course: "GEM 521",
-    theme: "Ecological Data Analysis",
-    keySkills: ["R", "Statistical Analysis", "Data Visualization"],
-    tags: [
-      {
-        value: "mgem",
-        label: "MGEM",
-      },
-    ],
-    markdownPath: "/archive-posts/gem521-lab4-ellen-wu.md",
-    outputs: [
-      {
-        label: "Output 1 — Main Analytical Figure",
+        label: "RGL Visualizations",
         note:
-          "Primary analytical output documented in the GEM 521 Lab 4 report.",
+          "3D render of all 4 plots, demonstrating the segmented tree objects with raw point clouds.",
       },
       {
-        label: "Output 2 — Supporting Map/Plot",
+        label: "2D Treetop Detection",
         note:
-          "Supporting figure/table reported alongside the main Lab 4 result.",
+          "2D plots with treetop detection using CHM, with the chosen optimal resolution after comparison between different resolutions.",
       },
     ],
     isPrivate: false,
@@ -404,7 +376,6 @@ export const archivePosts = [
     theme: "Geospatial Analysis",
     keySkills: [
       "ArcGIS Pro",
-      "Academic Writing",
       "Data Visualization",
       "Teamwork",
     ],
