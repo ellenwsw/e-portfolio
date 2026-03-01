@@ -86,6 +86,35 @@ export const archivePosts = [
     isPrivate: false,
   }),
   withAutoTags({
+    slug: "r-lidar",
+    title: "R LiDAR Forest Attribute Modeling and Raster Products",
+    date: "2026-02-05",
+    degree: "Master of Geomatics for Environmental Management",
+    course: "GEM 521",
+    theme: "Remote Sensing",
+    keySkills: ["R", "LiDAR", "Raster Processing", "Statistical Modeling"],
+    tags: [
+      {
+        value: "mgem",
+        label: "MGEM",
+      },
+    ],
+    markdownPath: "/archive-posts/r-lidar.md",
+    outputs: [
+      {
+        label: "DEM and CHM Products",
+        note:
+          "Terrain and canopy raster outputs generated from AFRF LiDAR tiles in R.",
+      },
+      {
+        label: "Forest Attribute Maps",
+        note:
+          "Mapped dominant tree height and above-ground biomass predictions from plot-driven models.",
+      },
+    ],
+    isPrivate: false,
+  }),
+  withAutoTags({
     slug: "stream-management",
     title: "Riparian Management Area Delineation in the Nahmint Watershed",
     date: "2026-02-13",
@@ -325,11 +354,13 @@ export const archivePosts = [
     outputs: [
       {
         label: "Output 1 — Main Analytical Figure",
-        note: "Placeholder ready: /archive-posts/images/lab4-output-1.png",
+        note:
+          "Primary analytical output documented in the GEM 521 Lab 4 report.",
       },
       {
         label: "Output 2 — Supporting Map/Plot",
-        note: "Placeholder ready: /archive-posts/images/lab4-output-2.png",
+        note:
+          "Supporting figure/table reported alongside the main Lab 4 result.",
       },
     ],
     isPrivate: false,
