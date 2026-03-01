@@ -52,6 +52,84 @@ const withAutoTags = (post) => {
 
 export const archivePosts = [
   withAutoTags({
+    slug: "stream-network-analysis",
+    title:
+      "Pacific Salmon Habitat Accessibility Mapping from Stream-Network Analysis",
+    date: "2026-01-31",
+    degree: "Master of Geomatics for Environmental Management",
+    course: "Hydrological GIS Analysis",
+    theme: "Hydrological Modeling",
+    keySkills: [
+      "ArcGIS Pro",
+      "DEM Processing",
+      "Network Analysis",
+      "Habitat Mapping",
+    ],
+    tags: [
+      {
+        value: "mgem",
+        label: "MGEM",
+      },
+    ],
+    markdownPath: "/archive-posts/stream-network-analysis.md",
+    outputs: [
+      {
+        label: "Chinook Habitat Network Poster",
+        note:
+          "A map-based analysis identifying stream segments that are accessible and inaccessible for salmon spawning habitat.",
+      },
+    ],
+    isPrivate: false,
+  }),
+  withAutoTags({
+    slug: "ubc-flower-map",
+    title: "UBC Spring Flowering Trees Distribution Map",
+    date: "2025-09-20",
+    degree: "Master of Geomatics for Environmental Management",
+    course: "GIS & Cartography",
+    theme: "Cartography",
+    keySkills: ["ArcGIS Pro", "PostgreSQL", "SQL", "Map Design"],
+    tags: [
+      {
+        value: "mgem",
+        label: "MGEM",
+      },
+    ],
+    markdownPath: "/archive-posts/ubc-flower-map.md",
+    outputs: [
+      {
+        label: "Campus Flower Map",
+        note:
+          "A campus-wide spring flowering tree map produced from UBC tree inventory data.",
+      },
+    ],
+    isPrivate: false,
+  }),
+  withAutoTags({
+    slug: "flower-power",
+    title: "Flower Power: Decoding Chocolate Lily's Climate Response",
+    date: "2025-04-10",
+    degree: "BA Environment & Sustainability",
+    course: "GEOS 407 Vegetation Dynamics",
+    theme: "Ecological Data Analysis",
+    keySkills: ["R", "ClimateNA", "Phenology", "Statistical Modeling"],
+    tags: [
+      {
+        value: "ba-environment-sustainability",
+        label: "BA Environment & Sustainability",
+      },
+    ],
+    markdownPath: "/archive-posts/flower-power.md",
+    outputs: [
+      {
+        label: "Academic Poster",
+        note:
+          "Poster summarizing chocolate lily flowering-time shifts against historical climate variables.",
+      },
+    ],
+    isPrivate: false,
+  }),
+  withAutoTags({
     slug: "remote-sensing-land-cover-change",
     title:
       "Climate-Driven Change in Vertical Vegetation Stratification on Mount Everest",
@@ -147,6 +225,8 @@ export const archivePosts = [
 ];
 
 export const themeOrder = [
+  "Hydrological Modeling",
+  "Ecological Data Analysis",
   "Remote Sensing",
   "Cartography",
   "Geospatial Analysis",
