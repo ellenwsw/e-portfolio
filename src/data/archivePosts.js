@@ -52,6 +52,40 @@ const withAutoTags = (post) => {
 
 export const archivePosts = [
   withAutoTags({
+    slug: "supervised-image-classification",
+    title: "Supervised Landsat Image Classification with Accuracy Assessment",
+    date: "2025-11-01",
+    degree: "Master of Geomatics for Environmental Management",
+    course: "Remote Sensing",
+    theme: "Remote Sensing",
+    keySkills: [
+      "R",
+      "Landsat",
+      "Supervised Classification",
+      "Accuracy Assessment",
+    ],
+    tags: [
+      {
+        value: "mgem",
+        label: "MGEM",
+      },
+    ],
+    markdownPath: "/archive-posts/supervised-image-classification.md",
+    outputs: [
+      {
+        label: "Classified Land-Cover Map",
+        note:
+          "A supervised land-cover map produced from Landsat 9 imagery and validated with held-out polygon samples.",
+      },
+      {
+        label: "Accuracy Summary",
+        note:
+          "Confusion-matrix-based validation including overall, producer, and user accuracy metrics.",
+      },
+    ],
+    isPrivate: false,
+  }),
+  withAutoTags({
     slug: "stream-network-analysis",
     title:
       "Pacific Salmon Habitat Accessibility Mapping from Stream-Network Analysis",

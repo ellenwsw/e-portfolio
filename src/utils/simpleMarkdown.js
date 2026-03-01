@@ -48,7 +48,9 @@ export function simpleMarkdownToElements(markdown) {
   const lines = markdown.split("\n");
   const elements = [];
   let listItems = [];
+  let listType = null;
   let paragraphLines = [];
+  let lastTokenWasListItem = false;
   let key = 0;
 
   const flushParagraph = () => {
@@ -63,17 +65,20 @@ export function simpleMarkdownToElements(markdown) {
 
   const flushList = () => {
     if (listItems.length) {
+      const ListTag = listType === "ordered" ? "ol" : "ul";
       elements.push(
-        <ul key={`ul-${key++}`}>
+        <ListTag key={`list-${key++}`}>
           {listItems.map((item, index) => (
             <li key={`li-${key++}-${index}`}>
               {renderInline(item, `li-${key}-${index}`)}
             </li>
           ))}
-        </ul>
+        </ListTag>
       );
       listItems = [];
+      listType = null;
     }
+    lastTokenWasListItem = false;
   };
 
   lines.forEach((rawLine) => {
@@ -123,18 +128,36 @@ export function simpleMarkdownToElements(markdown) {
     }
 
     if (line.startsWith("- ")) {
+      if (listType && listType !== "unordered") {
+        flushList();
+      }
       flushParagraph();
+      listType = "unordered";
       listItems.push(line.replace(/^-\s+/, ""));
+      lastTokenWasListItem = true;
       return;
     }
 
     if (/^\d+\.\s+/.test(line)) {
+      if (listType && listType !== "ordered") {
+        flushList();
+      }
       flushParagraph();
+      listType = "ordered";
       listItems.push(line.replace(/^\d+\.\s+/, ""));
+      lastTokenWasListItem = true;
+      return;
+    }
+
+    if (lastTokenWasListItem && listItems.length) {
+      listItems[listItems.length - 1] = `${
+        listItems[listItems.length - 1]
+      } ${line}`;
       return;
     }
 
     paragraphLines.push(line);
+    lastTokenWasListItem = false;
   });
 
   flushParagraph();
