@@ -96,7 +96,7 @@ export const archivePosts = [
       "ArcGIS Pro",
       "DEM Processing",
       "Hydrological Modeling",
-      "Forest Management",
+      "Python"
     ],
     tags: [
       {
@@ -258,7 +258,6 @@ export const archivePosts = [
       "ArcGIS Pro",
       "Academic Writing",
       "Data Visualization",
-      "Research",
       "Teamwork",
     ],
     // Manual tags let you control archive filters per post.
