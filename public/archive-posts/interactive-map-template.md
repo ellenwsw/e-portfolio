@@ -13,7 +13,7 @@ Describe what the map shows, the purpose, and your key findings in 3–5 bullets
 
 ## 2) Interactive map embed
 
-Replace the URL below with your ArcGIS Online / Mapbox / Leaflet / other public embed URL.
+Replace the URL below with your ArcGIS Online / Mapbox / **Leaflet** / other public embed URL.
 
 @webmap(https://your-public-web-map-url)
 

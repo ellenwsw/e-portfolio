@@ -1,5 +1,5 @@
 # Project overview
-This lab develops a compact **LiDAR analysis workflow in R** for the Alex Fraser Research Forest (AFRF). The project processes 24 discrete-return `.las` tiles to generate core forest products: a **2 m DEM**, **2 m CHM**, and model-based maps of **total above-ground biomass (AGB)** and **dominant tree height**.
+This lab develops a compact LiDAR analysis workflow in R for the Alex Fraser Research Forest (AFRF). The project processes 24 discrete-return `.las` tiles to generate core forest products: a 2 m DEM, 2 m CHM, and model-based maps of total above-ground biomass (AGB) and dominant tree height.
 
 ## Workflow Summary
 1. Load and quality-check LiDAR tiles with `lidR`.
@@ -17,6 +17,9 @@ This lab develops a compact **LiDAR analysis workflow in R** for the Alex Fraser
 
 ### CHM mosaic in 2 m spatial resolution
 ![CHM mosaic (2 m)](/archive-posts/images/chm_mosaic.png)
+
+### Metrics exploration and plot
+![Metrics exploration and plot](/archive-posts/images/metrics.png)
 
 ### Predicted AGB across the whole study area with developed linear model
 ![Predicted total above-ground biomass (AGB)](/archive-posts/images/predicted_AGB.png)

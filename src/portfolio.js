@@ -252,7 +252,7 @@ const publications = {
         "A Criticism of Fukushima Radioactive Water Discharge in the Lens of Environmental Justice",
       authors: "Ellen Wu",
       venue:
-        "Trail Six: Undergraduate Journal of Geography Department of Geography",
+        "Trail Six - Undergraduate Journal of Geography Department of Geography",
       year: "2025",
       description:
         "This paper critically examines Japan’s decision to discharge treated radioactive water from the Fukushima Daiichi Nuclear Power Station into the Pacific Ocean through the lens of environmental justice.",
