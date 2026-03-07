@@ -148,8 +148,9 @@
 
 .post-markdown .markdown-embed iframe {
   width: 100%;
-  min-height: 520px;
-  border: 0;
-  border-radius: 10px;
-  background: #000;
+  min-height: 500px;
+  border: none;
+  border-radius: 8px;
+  background: #000000;
+  overflow: hidden;
 }

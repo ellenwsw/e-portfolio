@@ -128,6 +128,7 @@ export function simpleMarkdownToElements(markdown) {
             loading="lazy"
             allow="fullscreen; xr-spatial-tracking"
             allowFullScreen
+            scrolling="no"
           />
         </div>
       );
