@@ -1,4 +1,4 @@
-# Ellen's E-Portfolio
+# E-Portfolio Customization Instructions
 
 Technical documentation for a customized portfolio built from the upstream
 [`ashutosh1919/masterPortfolio`](https://github.com/ashutosh1919/masterPortfolio)
