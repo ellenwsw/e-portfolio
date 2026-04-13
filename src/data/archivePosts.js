@@ -70,7 +70,7 @@ export const archivePosts = [
         label: "MGEM",
       },
     ],
-    markdownPath: "/archive-posts/supervised-image-classification.md",
+    markdownPath: "/archive-posts/r-supervised-image-classification.md",
     outputs: [
       {
         label: "Classified Land-Cover Map",
